@@ -1,0 +1,78 @@
+body {
+    background-image: url(./bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1 {
+    color: white;
+    font-weight: 700;
+    width: 300px;
+    line-height: 35px;
+}
+p {
+    color: white;
+    font-size: 11px;
+    font-weight: 300;
+    width: 350px;
+    /*line-height: 35px;*/
+}
+/* @media (max-width: 375px)
+@media (max-width: 1440px) */
+main {
+    margin: auto;
+    width: 50%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstbutton {
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px 60px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.whitebold {
+    font-weight: 700px;
+}
+input {
+    padding: 10px;
+    margin: 10px 0px;
+    margin-bottom: 0px;
+    width: 270px;
+    border: 0.2px solid black;
+    border-radius: 4px;
+}
+form {
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    width: 290px;
+    
+}
+.secondbutton {
+    background-color: hsl(154, 59%, 51%);
+    padding: 10px 60px;
+    font-size: 10px;
+    margin: 10px 0px;
+    width: 292px;
+    font-weight: lighter;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.terms {
+    color: hsl(248, 32%, 49%);
+    font-size: 7px;
+    margin: 2px 30px;
+    
+}
+.redbold {
+    color: hsl(0, 100%, 74%);
+}
