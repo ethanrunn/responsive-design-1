@@ -2,23 +2,22 @@ body {
     background-image: url(./bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     font-family: 'Poppins', sans-serif;
-    
 }
 h1 {
     color: white;
     font-weight: 700;
-    width: 300px;
+    width: 370px;
     line-height: 35px;
 }
 p {
     color: white;
     font-size: 11px;
     font-weight: 300;
-    width: 350px;
-    /*line-height: 35px;*/
+    width: 320px;
+    line-height: 20px;
 }
-/* @media (max-width: 375px)
-@media (max-width: 1440px) */
+/*@media (max-width: 375px)
+@media (min-width: 1440px)*/
 main {
     margin: auto;
     width: 50%;
@@ -75,4 +74,11 @@ form {
 }
 .redbold {
     color: hsl(0, 100%, 74%);
+}
+
+@media (max-width: 992px){
+    main {
+        text-align: center;
+        flex-direction: column;
+    }
 }
